@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <title>Research Paper IX</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="left-container">
+          <img class="logo-cc" src="img/Header Logo.png" />
+        </div>
+
+        <div class="right-container">
+          <ul class="links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="toggle_btn">
+            <img class="menuicon" src="svg/3bar.svg" alt="3bar" />
+          </div>
+        </div>
+        <div class="dropdown_menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="form.html">Form</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+      <h1>
+        <span style="color: rgb(214, 107, 5)">Research Paper</span>
+        <span style="color: rgb(21, 39, 81)"
+          >IX: <br />
+          Menghidupi Sebuah Kekhasan</span
+        >
+      </h1>
+
+      <p class="paragraph">
+        SMP Kolese Kanisius memiliki sebuah kekhasan yang dihidupi oleh siswa
+        kelas IX. Kekhasan yang dimaksud adalah tradisi merefleksikan hidup
+        akademis para siswa dalam kegiatan Research Paper. Tahun ini akan
+        menjadi yang ke-13 kalinya SMP Kolese Kanisius mengadakan Research Paper
+        dan itu menunjukkan bahwa kegiatan Research Paper adalah salah satu ciri
+        khas yang dimiliki SMP Kolese Kanisius. Tema Research Paper tahun ini
+        adalah Universal Apostolic Preferences (UAP). Pelaksanaan Research Paper
+        ini merupakan salah satu bentuk dari pengejawantahan Man for Other.
+        Sebab, dalam kegiatan ini para Kanisian kelas IX diberi kebebasan untuk
+        memilih berbagai topik penelitian. Namun kebebasan dalam memilih topik
+        harus disertai dengan tanggung jawab. Bentuk tanggung jawab yang
+        dimaksud adalah hasil dari penelitian yang mereka lakukan harus dapat
+        memberikan manfaat bagi orang lain.
+      </p>
+
+      <p class="paragraph">
+        Selain itu, pelaksanaan Research Paper juga selaras dengan karakter
+        pendidikan Sekolah Jesuit. Ada beberapa karakter Sekolah Jesuit yang
+        mendukung pelaksanaan Research Paper. Pertama, Pendidikan Jesuit
+        membantu pembentukan penuh tiap-tiap individu dalam masyarakat. Pada
+        poin ini, para Kanisian dalam kegiatan Research Paper diajak untuk
+        mengembangkan kemampuan intelektual sekaligus keterampilan
+        berkomunikasi. Kemampuan intelektual penting untuk dimiliki para
+        Kanisian agar mampu menyelesaikan penelitian yang mereka lakukan.
+        Sementara keterampilan berkomunikasi juga penting untuk dimiliki, sebab
+        kegiatan Research Paper ini dilakukan secara berkelompok dan para
+        Kanisian harus mampu mempresentasikan penelitiannya di depan para
+        penguji dengan baik. Kedua, Pendidikan Jesuit menekankan kegiatan siswa
+        dalam proses belajar. Artinya, para Kanisian diberikan kesempatan untuk
+        belajar secara personal maupun kelompok. Di kegiatan Research Paper ini,
+        para Kanisian diberi kebebasan untuk mengembangkan diri sekaligus
+        berkolaborasi agar dapat melakukan penelitian sesuai dengan yang mereka
+        inginkan dan menghasilkan sesuatu yang bermanfaat bagi orang lain.
+        Karakter kedua ini sejalan dengan prinsip Man for Others.
+      </p>
+
+      <p class="paragraph">
+        Ketiga, Pendidikan Jesuit berusaha meraih keunggulan dalam karya
+        pembentukan. Melalui kegiatan Research Paper, para Kanisian diajak untuk
+        memiliki keunggulan akademik yang bermuara pada keunggulan manusia.
+        Kegiatan Research Paper akan menempa kemampuan akademik para Kanisian
+        sekaligus menempa kemampuan mereka untuk bat bagi berkolaborasi dengan
+        rekan satu kelompoknya. Harapannya kemampuan akademik dan kemampuan
+        berkolaborasi yang diperoleh saat kegiatan Research Paper dapat
+        memberikan manfara Kanisian dan orang-orang di sekitarnya. Karakter
+        ketiga ini pun juga selaras dengan prinsip Man for Other.
+      </p>
+
+      <p class="paragraph">
+        Menengok tiga karakter tersebut dan sejalannya kegiatan Research Paper
+        dengan prinsip Man for Other, menjadikan kegiatan Research Paper sebagai
+        salah satu ciri khas yang dimiliki oleh SMP Koleses Kanisius. Selain
+        itu, adanya Research Paper dianggap semakin mengobarkan semangat juang
+        para Kanisian untuk berkembang menjadi pribadi yang lebih baik lagi.
+        Maka, Research Paper akan terus dihidupi dan dilaksanakan demi
+        perkembangan para Kanisian. Research Paper ini sangat penting bagi siswa
+        kelas IX karena ujian Research Paper termasuk salah satu syarat
+        kelulusan. Selain itu, Research Paper ini akan menjadi nilai dari ujian
+        praktik mata pelajaran Bahasa Indonesia.
+      </p>
+      <br /><br /><br />
+    </div>
+
+    <script>
+      const toggleBtn = document.querySelector(".toggle_btn");
+      const toggleBtnIcon = document.querySelector(".toggle_btn img");
+      const dropDownMenu = document.querySelector(".dropdown_menu");
+
+      // Add click event listener to toggle button
+      toggleBtn.addEventListener("click", function () {
+        // Toggle the 'open' class and store the result
+        const isOpen = dropDownMenu.classList.toggle("open");
+
+        // Change the icon based on the menu state
+        toggleBtnIcon.src = isOpen ? "svg/crss.svg" : "svg/3bar.svg";
+      });
+    </script>
+  </body>
+</html>
