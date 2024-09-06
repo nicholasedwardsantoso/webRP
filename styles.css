@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 h1 {
   text-align: center;
   font-weight: bolder;
-  font-size: clamp(20px, 2vw, 100px);
+  font-size: clamp(20px, 1vw, 100px);
   padding-bottom: 0.5em;
 }
 
