@@ -21,6 +21,12 @@ h1 {
   padding-bottom: 0.5em;
 }
 
+.linkweb {
+  font-weight: bold;
+  font-size: clamp(10px, 1vw, 75px);
+  text-decoration: underline;
+}
+
 .contactperson,
 .credit {
   text-align: center;
@@ -34,9 +40,12 @@ h1 {
 
 .slideshow-container {
   max-width: clamp(1000px, 1vw, 1140px);
-
   position: relative;
   margin: auto;
+}
+
+.slides {
+  display: none;
 }
 
 .prev,
@@ -49,15 +58,10 @@ h1 {
   margin-top: -22px;
   color: white;
   font-weight: bold;
-  font-size: clamp(20px, 1vw, 40px);
+  font-size: clamp(15px, 1vw, 40px);
   transition: 0.6 ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
-
-.prev {
-  text-align: left;
-  align-items: left;
 }
 
 .next {
@@ -233,6 +237,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgb(21, 39, 81);
+  width: 100%;
+  height: clamp(45px, 4vw, 65px);
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: clamp(10px, 1vw, 75px);
 }
 
 /*RESPONSIVE DESIGN*/
