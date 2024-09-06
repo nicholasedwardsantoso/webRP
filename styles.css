@@ -33,7 +33,7 @@ h1 {
 }
 
 .slideshow-container {
-  max-width: clamp(1000px, 2vw, 1140px);
+  width: clamp(1000px, 2vw, 1140px);
 
   position: relative;
   margin: auto;
